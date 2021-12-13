@@ -10,7 +10,7 @@ function App(props) {
   const [ShowAlertData, setShowAlertData] = useState("");
   const getData = async () => {
     let res = await fetch(
-      "https://mcapi.us/server/status?ip=teerut.duckgdns.org"
+      "https://mcapi.us/server/status?ip=teerut.duckdns.org"
     );
     let data = await res.json();
     setData(data);
